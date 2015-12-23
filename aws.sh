@@ -1,6 +1,6 @@
 #!/bin/bash
 ssh(){
-    echo "ssh -i ../ljy2010a.pem ubuntu@54.249.53.40"
+    echo "ssh -i ../ljy2010a.pem ubuntu@54.238.210.81"
 }
 
 case $1 in
