@@ -5,7 +5,7 @@ clean(){
 
 up(){
     echo "php-fpm"
-    php-fpm
+    php-fpm &
 }
 
 show(){
@@ -16,6 +16,7 @@ show(){
 case $1 in
 	"clean")
 	clean
+    show
 	;;
     "show")
     show
@@ -23,6 +24,11 @@ case $1 in
 	"up")
 	up
 	;;
+    "re")
+    clean
+    up
+    show
+    ;;
 	*)
 	;;
 esac
