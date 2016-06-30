@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# -lt 1 ];then
-echo "Usage:./aapt_dump.sh <apk_path> <database name> <password>"
+echo "Usage:./aapt_dump.sh <apk_path>"
 exit
 fi
 
